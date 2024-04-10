@@ -1,0 +1,125 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "GRANTOR",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GRANTOR",
+            "oid": "ed252fbd-23de-4c2c-b8f6-24fe73d37235",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "GRANTEE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GRANTEE",
+            "oid": "61fb43fb-7bd2-43d4-be95-4f90541dc767",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_CATALOG",
+            "oid": "eb33aea4-9ecb-48a3-8a6d-655ae7823fbe",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_SCHEMA",
+            "oid": "7c34ac87-2ec0-4508-89d5-6b5d846eb8c1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "2666f40a-96f5-4452-b635-ab48bbba3ca9",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PRIVILEGE_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PRIVILEGE_TYPE",
+            "oid": "57dcad97-9db3-457a-8427-57e0b0415df8",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_GRANTABLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_GRANTABLE",
+            "oid": "6cdc17ee-0acf-4d21-9d1f-76fbc54d516a",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "WITH_HIERARCHY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "WITH_HIERARCHY",
+            "oid": "65cf0d63-c50c-4b4e-b448-6472b7995f7e",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "dd4a38d7-843b-4a31-9972-ab3b090508ed",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "TABLE_PRIVILEGES",
+    "isMaterialized": false,
+    "name": "TABLE_PRIVILEGES",
+    "oid": "f5f67d64-0634-4cf0-b12b-63450975069d",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

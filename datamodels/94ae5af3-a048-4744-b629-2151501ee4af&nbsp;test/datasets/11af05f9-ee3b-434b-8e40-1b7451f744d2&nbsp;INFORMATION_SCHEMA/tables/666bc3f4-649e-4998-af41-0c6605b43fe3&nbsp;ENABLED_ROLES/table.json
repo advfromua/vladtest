@@ -1,0 +1,41 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "ROLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ROLE_NAME",
+            "oid": "cb755c3b-89d6-4e5d-a194-6e5b57914486",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ROLE_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ROLE_OWNER",
+            "oid": "05209b3e-0346-4bfa-a460-4da1e7f36434",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "ENABLED_ROLES",
+    "isMaterialized": false,
+    "name": "ENABLED_ROLES",
+    "oid": "666bc3f4-649e-4998-af41-0c6605b43fe3",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

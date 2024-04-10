@@ -1,0 +1,125 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "e22dbff8-4577-4098-abb0-6fe82c79e9bd",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SCHEMA_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SCHEMA_NAME",
+            "oid": "a7fc06d7-f683-4a06-8b25-99b55330a8d0",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DATABASE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DATABASE_NAME",
+            "oid": "6a1364d4-4df1-48f3-9df3-7770b8f4c822",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "VERSION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "VERSION",
+            "oid": "f73ad7ee-a9cb-4d45-b83d-ef399f277bf3",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER",
+            "oid": "3d85d1d0-c265-423d-af67-3f313303fb34",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER_ROLE_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER_ROLE_TYPE",
+            "oid": "e32aa9d2-e47b-40ad-8692-89c3c8ef271c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_SERVICE_CLASS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "IS_SERVICE_CLASS",
+            "oid": "421f0139-a1cb-47a9-95a0-a8a3f9abd526",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "18bcc2d8-f3c7-4d51-9ba3-0da9c37afca2",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "6c5a9517-30c3-41b5-83f4-ea873769bf6f",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "CLASSES",
+    "isMaterialized": false,
+    "name": "CLASSES",
+    "oid": "74b78ac9-5792-4980-82bc-13bf974322b3",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,65 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "GRANTEE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GRANTEE",
+            "oid": "91420e9e-4a92-47ce-bf36-95f6d95af01f",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ROLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ROLE_NAME",
+            "oid": "dafbec86-bc41-4884-b473-f50d044579b1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ROLE_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ROLE_OWNER",
+            "oid": "79abdcb5-9024-4cff-aa68-5773a4956b90",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_GRANTABLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_GRANTABLE",
+            "oid": "a62dbacf-ff43-4472-8b26-f80b2867ad3c",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "APPLICABLE_ROLES",
+    "isMaterialized": false,
+    "name": "APPLICABLE_ROLES",
+    "oid": "4e76eec6-62ef-4741-afa8-1857aff0d3b3",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

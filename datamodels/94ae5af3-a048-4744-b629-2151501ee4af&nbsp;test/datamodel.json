@@ -1,0 +1,33 @@
+{
+    "buildDestination": {
+        "destination": "live"
+    },
+    "datasets": [
+        "./11af05f9-ee3b-434b-8e40-1b7451f744d2/dataset.json"
+    ],
+    "dependencies": {
+        "perspectives": [
+            "./94ae5af3-a048-4744-b629-2151501ee4af/perspective.json"
+        ]
+    },
+    "experiments": {
+    },
+    "fiscal": "system",
+    "hierarchies": [
+    ],
+    "modelStatistics": {
+        "allTablesPerCollection": true,
+        "enableModelStatistics": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "94ae5af3-a048-4744-b629-2151501ee4af",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "shouldUpdateScheduleOnManualBuild": null,
+    "title": "test",
+    "type": "live"
+}

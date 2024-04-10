@@ -1,0 +1,149 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "PIPE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PIPE_CATALOG",
+            "oid": "30eed2c2-53a8-461e-8a32-340c399ecead",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PIPE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PIPE_SCHEMA",
+            "oid": "b0cbf350-e015-43c6-a4c5-8dfd8d8d10e5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PIPE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PIPE_NAME",
+            "oid": "9fffba80-6b14-4377-bbdc-e5d3184548d9",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PIPE_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PIPE_OWNER",
+            "oid": "a71874fa-580e-435b-86c6-fc2115e162e7",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DEFINITION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DEFINITION",
+            "oid": "d182032d-d8c3-49a5-a789-d55fe0b7b5c7",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_AUTOINGEST_ENABLED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_AUTOINGEST_ENABLED",
+            "oid": "af8e5f99-98a1-4a24-b4ab-daa4695e5f8d",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "NOTIFICATION_CHANNEL_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NOTIFICATION_CHANNEL_NAME",
+            "oid": "ffb32035-eb8f-4573-a37b-6b5873d38eeb",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "aca50fbc-ab56-4f93-a3a5-d8e317164e0f",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "8bc5b11c-6d65-423e-9a1d-6d38be0ef1fb",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "dbf02474-9ca0-40ca-8239-5a4c11cd20d5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PATTERN",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PATTERN",
+            "oid": "f46dea96-bbf6-4c1f-b68f-0266477f32a4",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "PIPES",
+    "isMaterialized": false,
+    "name": "PIPES",
+    "oid": "447e235e-adc1-470a-97a5-55a1aeb4f825",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,125 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "TABLE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_CATALOG",
+            "oid": "bef5dad5-a9d9-4f2b-9091-9a753e9eda0b",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_SCHEMA",
+            "oid": "1646acfc-267b-4ba9-8852-c70592d5912f",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "a594d836-5929-47c2-b762-9112a4b23314",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "6e2239e8-9eb1-4a5f-8f6c-242886066311",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER",
+            "oid": "82a1ffa5-8b10-4f26-b9dd-9f40c734ca61",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_UNIQUE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_UNIQUE",
+            "oid": "23f29b76-5b89-432f-a347-bc609e44852f",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_NAME",
+            "oid": "5c802c04-b54c-4abd-aedd-a04108df4ec9",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STATUS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STATUS",
+            "oid": "abac3f3e-7176-467b-bac8-16ac5ed5177e",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "d3979f6c-3082-4879-82a0-01059dedfed0",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "INDEXES",
+    "isMaterialized": false,
+    "name": "INDEXES",
+    "oid": "d957db1f-1c36-4e03-925d-5294b999ddd9",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

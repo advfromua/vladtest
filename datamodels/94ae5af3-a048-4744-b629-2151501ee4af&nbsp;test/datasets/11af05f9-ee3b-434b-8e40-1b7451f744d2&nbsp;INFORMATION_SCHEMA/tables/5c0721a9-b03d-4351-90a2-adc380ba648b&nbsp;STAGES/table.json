@@ -1,0 +1,161 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "STAGE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_CATALOG",
+            "oid": "abc91508-2ac9-4bb0-b7d3-9a5359f18d79",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STAGE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_SCHEMA",
+            "oid": "00c66a9d-c3d1-40b2-92e1-245a66c7d8d4",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STAGE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_NAME",
+            "oid": "9693af28-efeb-4781-aa82-0e71917409a1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STAGE_URL",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_URL",
+            "oid": "1a0eeb84-fa6e-45d1-8168-4669e7896234",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STAGE_REGION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_REGION",
+            "oid": "a8857790-c07b-45fb-a334-51d1f8959374",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STAGE_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_TYPE",
+            "oid": "1cdbb94c-b0db-4919-b105-6260b5be069c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STAGE_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STAGE_OWNER",
+            "oid": "dd72bef8-6d0e-492b-8ead-1bac8d5c9789",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "c239d24c-49db-4407-b7e3-ab489fcda7b8",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "2e4f9302-583b-41a8-95fa-e7a872c338ad",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "2f0c6e6e-f808-4742-bd98-1fc1b3251b68",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "ENDPOINT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ENDPOINT",
+            "oid": "02ac80e4-a618-4dad-a7d1-38a94875c5e5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DIRECTORY_ENABLED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DIRECTORY_ENABLED",
+            "oid": "d85cfab5-ef3e-4cc0-ad36-9fa4b3744d00",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        }
+    ],
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "STAGES",
+    "isMaterialized": false,
+    "name": "STAGES",
+    "oid": "5c0721a9-b03d-4351-90a2-adc380ba648b",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
