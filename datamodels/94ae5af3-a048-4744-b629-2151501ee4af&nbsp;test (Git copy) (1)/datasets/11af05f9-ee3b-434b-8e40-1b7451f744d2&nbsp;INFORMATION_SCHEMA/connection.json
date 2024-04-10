@@ -1,0 +1,7 @@
+{
+    "description": "",
+    "name": "",
+    "oid": "8d2614d2-8d44-4331-b9b6-499b304cd882",
+    "provider": "SnowflakeJDBC",
+    "schema": "INFORMATION_SCHEMA"
+}
