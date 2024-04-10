@@ -1,0 +1,104 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "CAR_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CAR_ID",
+            "oid": "9abb2bc4-924b-4f3d-a9bb-b025390c8ec0",
+            "precision": 38,
+            "scale": 0,
+            "size": 39,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "TEST",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TEST",
+            "oid": "5fac53b6-55f7-403b-b28f-525a1c186527",
+            "precision": 50,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "MODEL",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "MODEL",
+            "oid": "72184c7c-7c98-423d-bef2-6072f4373741",
+            "precision": 50,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "YEAR",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "YEAR",
+            "oid": "e365ef3a-7e4a-4ba7-949f-1a6ac54e0bfa",
+            "precision": 38,
+            "scale": 0,
+            "size": 39,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "COLOR",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "COLOR",
+            "oid": "20b6f496-006a-4f35-bdec-fc80ac734cc0",
+            "precision": 20,
+            "scale": 0,
+            "size": 20,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "MILEAGE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "MILEAGE",
+            "oid": "06f795e3-3f3f-4021-b753-3838398286df",
+            "precision": 0,
+            "scale": 0,
+            "size": 24,
+            "type": 40
+        },
+        {
+            "hidden": false,
+            "id": "PRICE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "PRICE",
+            "oid": "fe9df14c-5e5c-4785-9fa1-fe237ef3adf6",
+            "precision": 10,
+            "scale": 2,
+            "size": 12,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "importQuery": "select * from VLAD.CARS"
+    },
+    "dataset": "11af05f9-ee3b-434b-8e40-1b7451f744d2",
+    "hidden": false,
+    "id": "tq_oh038y4Gb",
+    "isMaterialized": false,
+    "name": "vlados ne shlyapa",
+    "oid": "f0f50d4d-715d-4939-b7c6-19d39bc9b860",
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
